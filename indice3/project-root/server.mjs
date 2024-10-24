@@ -11,7 +11,7 @@ const PORT = 3005;
 app.get("/superheroes/id/:id", obtenerSuperheroePorIdController);
 
 app.get(
-  "./superheroes/atributo/:atributo/:valor",
+  "/superheroes/atributo/:atributo/:valor",
   buscarSuperheroesPorAtributoController
 );
 
