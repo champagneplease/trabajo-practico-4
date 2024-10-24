@@ -3,7 +3,7 @@ import SuperheroesRepository from "../repository/superheroesRepository.mjs";
 const repository = new SuperheroesRepository();
 
 export function obtenerSuperheroePorId(id) {
-  const superheroe = repository.obtenerTodos();
+  const superheroes = repository.obtenerTodos();
   return superheroes.find((hero) => hero.id === id);
 }
 

@@ -11,6 +11,7 @@ import {
 
 export function obtenerSuperheroePorIdController(req, res) {
   const { id } = req.params;
+
   const superheroe = obtenerSuperheroePorId(parseInt(id));
   if (superheroe) {
     res.send(renderizarSuperheroe(superheroe));

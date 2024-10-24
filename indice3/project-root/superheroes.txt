@@ -24,7 +24,8 @@
     "habilidadEspecial": "Ingeniería avanzada",
     "aliado": ["Spiderman"],
     "enemigo": ["Mandarín"]
-  }
+  },
+  
   {
   "id": 3,
   "nombreSuperHeroe": "Thor",
